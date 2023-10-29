@@ -1,6 +1,6 @@
 //! TECHCAREER FLUTTER BOOTCAMP DERS NOTLARI
 
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; //flutter diye bir package varmış onun material.dart ı nı import etmişiz
 
 void main() {
   runApp(const MyApp());
@@ -58,6 +58,9 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
+
+  int x = 0; //degisken olustururken ya degerini vereceksin ya da late ver daha sonra degerini alacak demek
+  late int y;
 
   void _incrementCounter() {
     setState(() {
