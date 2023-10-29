@@ -1,6 +1,7 @@
 import 'package:bootcamp/nesne_tabanli/kalitim_kullanimi/ev.dart';
 import 'package:bootcamp/nesne_tabanli/kalitim_kullanimi/saray.dart';
 import 'package:bootcamp/nesne_tabanli/kalitim_kullanimi/villa.dart';
+//
 
 void main() {
   var topkapiSarayi = Saray(kuleSayisi: 10, pencereSayisi: 200);
@@ -31,4 +32,6 @@ void main() {
   var e = Ev(pencereSayisi: 14);
   Saray s = e as Saray; //! bu da downcasting
   //artık e nin türünü sorsan Saray denilecek.
+
+  print("deneme");
 }
