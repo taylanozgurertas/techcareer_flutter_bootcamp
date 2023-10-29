@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "Flutter (lib\\standart_programlama\\if_ve_switch_kullanimi.dart)",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib\\standart_programlama\\if_ve_switch_kullanimi.dart"
+        }
+    ]
+}
