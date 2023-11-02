@@ -20,3 +20,11 @@ null safety
 upcasting
 downcasting
 
+#ders 4: 
+
+list,hashset, hashmap, sort metodu, diger list metodları
+flutter giriş 
+font ekleme
+row column stack
+container, appbar, scaffold widgets
+
